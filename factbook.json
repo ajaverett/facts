@@ -1,0 +1,270 @@
+{
+    "facts": [
+        {
+            "fact_name": "Honey never spoils",
+            "tags": [
+                "food",
+                "longevity"
+            ],
+            "reference": "https://www.smithsonianmag.com/science-nature/honey-archaeology-180957372/",
+            "table": [
+                ["Header1", "Header2", "Row1Col2", "Row1Col2"],
+                ["Row1Col1", "Row1Col2", "Row1Col2", "Row1Col2"],
+                ["Row2Col1", "Row2Col2", "Row1Col2", "Row1Col2"]
+            ]
+        },
+        {
+            "fact_name": "Bananas are berries",
+            "tags": [
+                "food",
+                "botany"
+            ],
+            "reference": "https://www.livescience.com/why-bananas-are-berries.html"
+        },
+        {
+            "fact_name": "Humans and giraffes have the same number of neck vertebrae",
+            "tags": [
+                "anatomy",
+                "biology"
+            ],
+            "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4942174/",
+            "table": [
+                ["col1", "col2", "col3"],
+                ["row1col1", "row1col2", "row1col3"],
+                ["row2col1", "row2col2", "row2col3"]
+            ]
+        },
+        {
+            "fact_name": "Octopuses have three hearts",
+            "tags": [
+                "marine life",
+                "biology"
+            ],
+            "reference": "https://www.britannica.com/animal/octopus-mollusk"
+        },
+        {
+            "fact_name": "A day on Venus is longer than a year on Venus",
+            "tags": [
+                "astronomy",
+                "space"
+            ],
+            "reference": "https://solarsystem.nasa.gov/planets/venus/overview/"
+        },
+        {
+            "fact_name": "Hot water freezes faster than cold water",
+            "tags": [
+                "physics",
+                "science"
+            ],
+            "reference": "https://www.scientificamerican.com/article/is-it-true-that-hot-water/"
+        },
+        {
+            "fact_name": "Wombat feces are cube-shaped",
+            "tags": [
+                "animals",
+                "biology"
+            ],
+            "reference": "https://www.nationalgeographic.com/animals/article/why-wombat-poop-is-cube-shaped"
+        },
+        {
+            "fact_name": "Koalas have fingerprints similar to humans",
+            "tags": [
+                "animals",
+                "forensics"
+            ],
+            "reference": "https://www.bbc.com/news/science-environment-21082617"
+        },
+        {
+            "fact_name": "A group of flamingos is called a 'flamboyance'",
+            "tags": [
+                "animals",
+                "birds"
+            ],
+            "reference": "https://www.dictionary.com/e/flamboyance-of-flamingos/"
+        },
+        {
+            "fact_name": "There's a species of jellyfish that is biologically immortal",
+            "tags": [
+                "marine life",
+                "biology"
+            ],
+            "reference": "https://www.nationalgeographic.com/animals/article/immortal-jellyfish"
+        },
+        {
+            "fact_name": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid",
+            "tags": [
+                "history",
+                "timeline"
+            ],
+            "reference": "https://www.history.com/news/10-things-you-may-not-know-about-cleopatra"
+        },
+        {
+            "fact_name": "Oxford University is older than the Aztec Empire",
+            "tags": [
+                "education",
+                "history"
+            ],
+            "reference": "https://www.ox.ac.uk/about/organisation/history?wssl=1"
+        },
+        {
+            "fact_name": "There are more stars in the universe than grains of sand on all Earth's beaches",
+            "tags": [
+                "astronomy",
+                "space"
+            ],
+            "reference": "https://www.universetoday.com/106725/are-there-more-grains-of-sand-than-stars/"
+        },
+        {
+            "fact_name": "A day on Mercury lasts approximately 59 Earth days",
+            "tags": [
+                "astronomy",
+                "space"
+            ],
+            "reference": "https://solarsystem.nasa.gov/planets/mercury/in-depth/"
+        },
+        {
+            "fact_name": "Bees can recognize human faces",
+            "tags": [
+                "insects",
+                "cognition"
+            ],
+            "reference": "https://www.scientificamerican.com/article/sweet-surprise-bees-can-recognize-faces/"
+        },
+        {
+            "fact_name": "Sharks existed before trees",
+            "tags": [
+                "paleontology",
+                "evolution"
+            ],
+            "reference": "https://www.science.org/content/article/sharks-are-older-trees"
+        },
+        {
+            "fact_name": "Some turtles can breathe through their butts",
+            "tags": [
+                "animals",
+                "biology"
+            ],
+            "reference": "https://www.scientificamerican.com/article/fact-or-fiction-can-turtles-breathe-through-their-butts/"
+        },
+        {
+            "fact_name": "A blue whale's heart is the size of a small car",
+            "tags": [
+                "marine life",
+                "biology"
+            ],
+            "reference": "https://www.nationalgeographic.com/animals/article/blue-whale"
+        },
+        {
+            "fact_name": "Cows have best friends",
+            "tags": [
+                "animals",
+                "behavior"
+            ],
+            "reference": "https://www.scientificamerican.com/article/the-silent-suffering-of-the-lonely-cow/"
+        },
+        {
+            "fact_name": "There are more fake flamingos in the world than real ones",
+            "tags": [
+                "birds",
+                "culture"
+            ],
+            "reference": "https://www.livescience.com/33762-pink-plastic-flamingos.html"
+        },
+        {
+            "fact_name": "Bananas glow blue under black light",
+            "tags": [
+                "food",
+                "science"
+            ],
+            "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2704139/"
+        },
+        {
+            "fact_name": "Humans share 60% of their DNA with bananas",
+            "tags": [
+                "genetics",
+                "biology"
+            ],
+            "reference": "https://genome.ucsc.edu/~hillerlab/Bananas/Bananas.html"
+        },
+        {
+            "fact_name": "There are more possible iterations of a game of chess than atoms in the known universe",
+            "tags": [
+                "games",
+                "math"
+            ],
+            "reference": "https://www.scientificamerican.com/article/chess-and-the-universe-of-possibility/"
+        },
+        {
+            "fact_name": "Sloths can hold their breath longer than dolphins",
+            "tags": [
+                "animals",
+                "biology"
+            ],
+            "reference": "https://www.livescience.com/sloths-hold-breath-longer-dolphins.html"
+        },
+        {
+            "fact_name": "Scotland's national animal is the unicorn",
+            "tags": [
+                "culture",
+                "symbolism"
+            ],
+            "reference": "https://www.visitscotland.com/about/uniquely-scottish/national-animal-unicorn/"
+        },
+        {
+            "fact_name": "There are more tigers in Texas than in the wild",
+            "tags": [
+                "animals",
+                "conservation"
+            ],
+            "reference": "https://www.nationalgeographic.com/animals/article/160307-texas-tigers-trafficking-lucy-cooke"
+        },
+        {
+            "fact_name": "The shortest war in history lasted 38 minutes",
+            "tags": [
+                "history",
+                "war"
+            ],
+            "reference": "https://www.britannica.com/story/what-was-the-shortest-war-in-history"
+        },
+        {
+            "fact_name": "Humans are the only animals that blush",
+            "tags": [
+                "anatomy",
+                "behavior"
+            ],
+            "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3967526/"
+        },
+        {
+            "fact_name": "Venus is the hottest planet in the solar system",
+            "tags": [
+                "astronomy",
+                "space"
+            ],
+            "reference": "https://www.space.com/18526-venus-temperature.html"
+        },
+        {
+            "fact_name": "An octopus has nine brains",
+            "tags": [
+                "marine life",
+                "biology"
+            ],
+            "reference": "https://www.sciencefocus.com/nature/octopuses-have-nine-brains-heres-why/"
+        },
+        {
+            "fact_name": "AJ's initials are A and J",
+            "tags": [
+                "name",
+                "alan"
+            ],
+            "reference": "google.com"
+        },
+        {
+            "fact_name": "1 + 1 = 2",
+            "tags": [
+                "math",
+                "science"
+            ],
+            "reference": "x.com"
+        }
+    ]
+}
