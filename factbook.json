@@ -1,270 +1,328 @@
 {
     "facts": [
         {
-            "fact_name": "Honey never spoils",
-            "tags": [
-                "food",
-                "longevity"
-            ],
-            "reference": "https://www.smithsonianmag.com/science-nature/honey-archaeology-180957372/",
+            "fact_name": "Testosterone levels among sex offenders and the general population are not meaningfully different",
+
+            "tags": ["testosterone","sex offenders","meta-analysis","manosphere","pedophiles","rape"],
+
+            "reference": "Wong, J. S., & Gravel, J. (2018). Do sex offenders have higher levels of testosterone? Results from a meta-analysis. Sexual Abuse, 30(2), 147-168.",
+
+            "doi": "10.1177/1079063216637857",
+
             "table": [
-                ["Header1", "Header2", "Row1Col2", "Row1Col2"],
-                ["Row1Col1", "Row1Col2", "Row1Col2", "Row1Col2"],
-                ["Row2Col1", "Row2Col2", "Row1Col2", "Row1Col2"]
+                ["Group", "Value", "95% CI", "p", "sig"],
+                ["Rapists (Fixed Effects)", 0.279, [0.034, 0.524], 0.025, "Yes"],
+                ["Rapists (Random Effects)", 0.438, [-0.185, 1.061], 0.168, "No"],
+                ["Child Molesters (Fixed Effects)", -0.301, [-0.599, -0.002], 0.048, "No"],
+                ["Child Molesters (Random Effects)", -0.319, [-0.992, 0.355], 0.354, "No"]
             ]
         },
+
         {
-            "fact_name": "Bananas are berries",
-            "tags": [
-                "food",
-                "botany"
-            ],
-            "reference": "https://www.livescience.com/why-bananas-are-berries.html"
-        },
-        {
-            "fact_name": "Humans and giraffes have the same number of neck vertebrae",
-            "tags": [
-                "anatomy",
-                "biology"
-            ],
-            "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4942174/",
+            "fact_name": "Testosterone levels have positive, but small, relationships with pair bonding (.15), mate acquisition behavior (.21) and fatherhood (.19)",
+
+            "tags": ["testosterone", "pair bonding", "mate acquisition behavior", "fatherhood", "meta-analysis"],
+        
+            "reference": "Grebe, N. M., Sarafin, R. E., Strenth, C. R., & Zilioli, S. (2019). Pair-bonding, fatherhood, and the role of testosterone: A meta-analytic review. Neuroscience & Biobehavioral Reviews, 98, 221-233.",
+
+            "doi": "10.1016/j.neubiorev.2019.01.013",
+
             "table": [
-                ["col1", "col2", "col3"],
-                ["row1col1", "row1col2", "row1col3"],
-                ["row2col1", "row2col2", "row2col3"]
+                ["Group", "r", "95% CI", "sig"],
+                ["Pair Bond Status Effects (Random Effects)", 0.149, [0.115, 0.183], "Yes"],
+                ["Fatherhood Status Effects (Random Effects)", 0.189, [0.111, 0.267], "Yes"]
             ]
         },
+
         {
-            "fact_name": "Octopuses have three hearts",
-            "tags": [
-                "marine life",
-                "biology"
-            ],
-            "reference": "https://www.britannica.com/animal/octopus-mollusk"
+            "fact_name": "Testosterone administration does not negatively affect cooperative behaviors",
+
+            "tags": ["testosterone", "cooperation", "meta-analysis"],
+
+            "reference": "Yang, X., Wang, W., Wang, X. T., & Wang, Y. W. (2021). A meta-analysis of hormone administration effects on cooperative behaviours: Oxytocin, vasopressin, and testosterone. Neuroscience & Biobehavioral Reviews, 126, 430-443.",
+
+            "doi": "10.1016/j.neubiorev.2021.03.033",
+
+            "table": [
+                ["d", "95% CI", "p", "sig"],
+                [-0.28, [-0.89, 0.34], 0.384, "No"]
+            ]
         },
+
         {
-            "fact_name": "A day on Venus is longer than a year on Venus",
-            "tags": [
-                "astronomy",
-                "space"
-            ],
-            "reference": "https://solarsystem.nasa.gov/planets/venus/overview/"
+            "fact_name": "Soy does not feminize you nor decrease total testosterone (TT), free testosterone (FT), estradiol (E2), estrone (E1), or sex hormone binding globulin (SHBG)",
+
+            "tags": ["soy", "testosterone", "estrogen", "meta-analysis", "manosphere", "feminization", "femboy"],
+
+            "reference": "Reed, K. E., Camargo, J., Hamilton-Reeves, J., Kurzer, M., & Messina, M. (2021). Neither soy nor isoflavone intake affects male reproductive hormones: An expanded and updated meta-analysis of clinical studies. Reproductive Toxicology, 100, 60-67.",
+
+            "doi": "10.1016/j.reprotox.2020.12.019",
+
+            "table": ""
         },
+
         {
-            "fact_name": "Hot water freezes faster than cold water",
-            "tags": [
-                "physics",
-                "science"
-            ],
-            "reference": "https://www.scientificamerican.com/article/is-it-true-that-hot-water/"
+            "fact_name": "Testosterone and cortisol do not have any meaningful association with status, dominance, risk-taking, aggression, nor psychopathy",
+
+            "tags": ["testosterone", "cortisol", "status", "dominance", "risk-taking", "aggression", "psychopathy", "meta-analysis"],
+
+            "reference": "Dekkers, T. J., van Rentergem, J. A. A., Meijer, B., Popma, A., Wagemaker, E., & Huizenga, H. M. (2019). A meta-analytical evaluation of the dual-hormone hypothesis: Does cortisol moderate the relationship between testosterone and status, dominance, risk taking, aggression, and psychopathy?. Neuroscience & Biobehavioral Reviews, 96, 250-271",
+
+            "doi": "10.1016/j.neubiorev.2018.12.004",
+
+            "table": [
+                ["Measure", "k", "r", "p", "95% CI", "sig"],
+                ["All (Testosterone x Cortisol Interaction)",               49,  -0.061,  0.026, [-0.11, -0.01], "Yes"],
+                ["Status",                                                  5,   -0.158,  0.125, [-0.35, 0.04],  "No"],
+                ["Dominance",                                               9,   -0.031,  0.697, [-0.19, 0.13],  "No"],
+                ["Risk Taking",                                             13,  -0.099,  0.129, [-0.22, 0.03],  "No"],
+                ["Aggression",                                              16,  -0.043,  0.430, [-0.15, 0.06],  "No"],
+                ["Psychopathy",                                             7,   0.015,   0.859, [-0.15, 0.18],  "No"],
+                ["All (Main Effects of Testosterone)",                      47,  0.062,   0.001, [0.02, 0.10],   "Yes"],
+                ["Status",                                                  5,   0.168,   0.047, [0.00, 0.32],   "Yes"],
+                ["Dominance",                                               9,   0.028,   0.662, [-0.10, 0.15],  "No"],
+                ["Risk Taking",                                             13,  0.053,   0.299, [-0.05, 0.15],  "No"],
+                ["Aggression",                                              14,  0.063,   0.150, [-0.02, 0.15],  "No"],
+                ["Psychopathy",                                             7,   0.005,   0.937, [-0.12, 0.13],  "No"],
+                ["All (Main Effects of Cortisol)",                          47,  -0.036,  0.001, [-0.06, -0.01], "Yes"],
+                ["Status",                                                  5,   -0.047,  0.521, [-0.19, 0.10],  "No"],
+                ["Dominance",                                               9,   -0.064,  0.227, [-0.17, 0.04],  "No"],
+                ["Risk Taking",                                             13,  -0.005,  0.890, [-0.08, 0.07],  "No"],
+                ["Aggression",                                              14,  -0.043,  0.155, [-0.10, 0.02],  "No"],
+                ["Psychopathy",                                             7,   -0.046,  0.306, [-0.13, 0.04],  "No"]
+            ]
         },
+
         {
-            "fact_name": "Wombat feces are cube-shaped",
-            "tags": [
-                "animals",
-                "biology"
-            ],
-            "reference": "https://www.nationalgeographic.com/animals/article/why-wombat-poop-is-cube-shaped"
+            "fact_name": "Testosterone and cortisol do not have any meaningful association with personality: openness, conscientiousness, extraversion, agreeableness, and neuroticism",
+
+            "tags": ["testosterone", "cortisol", "personality", "openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism", "meta-analysis"],
+
+            "reference": "Sundin, Z. W., Chopik, W. J., Welker, K. M., Ascigil, E., Brandes, C. M., Chin, K., … & Tackett, J. L. (2021). Estimating the associations between big five personality traits, testosterone, and cortisol. Adaptive Human Behavior and Physiology, 7(3), 307-340.",
+
+            "doi": "10.1007/s40750-020-00159-9",
+
+            "table": [
+                ["Measure (Main Effects of Testosterone)", "r", "p", "sig"],
+                ["E", 0.046, 0.013, "Yes"],
+                ["A", 0.032, 0.070, "No"],
+                ["C", 0.050, 0.004, "Yes"],
+                ["N", 0.017, 0.621, "No"],
+                ["O", 0.008, 0.648, "No"],
+                ["Measure (Main Effects of Cortisol)", "", "", ""],
+                ["E", 0.020, 0.428, "No"],
+                ["A", 0.027, 0.220, "No"],
+                ["C", 0.002, 0.935, "No"],
+                ["N", 0.047, 0.591, "No"],
+                ["O", 0.011, 0.541, "No"],
+                ["Measure (Testosterone x Cortisol Interaction)", "", "", ""],
+                ["E", 0.002, 0.897, "No"],
+                ["A", 0.000, 0.982, "No"],
+                ["C", 0.020, 0.238, "No"],
+                ["N", 0.020, 0.407, "No"],
+                ["O", 0.006, 0.744, "No"]
+            ]
+
         },
+
         {
-            "fact_name": "Koalas have fingerprints similar to humans",
-            "tags": [
-                "animals",
-                "forensics"
-            ],
-            "reference": "https://www.bbc.com/news/science-environment-21082617"
+            "fact_name": "Anabolic-androgenic steroid (AAS) use administration was associated with only a small increase in self-reported aggression and no increase in observer-reported aggression",
+
+            "tags": ["anabolic-androgenic steroid", "testosterone", "roid rage", "steroids", "AAS", "aggression", "meta-analysis"],
+
+            "reference": "Chegeni, R., Pallesen, S., McVeigh, J., & Sagoe, D. (2021). Anabolic-androgenic steroid administration increases self-reported aggression in healthy males: a systematic review and meta-analysis of experimental studies. Psychopharmacology, 238(7), 1911-1922.",
+
+            "doi": "10.1007/s00213-021-05818-7",
+
+            "table": [
+                ["Group", "g", "95% CI", "p", "sig"],
+                ["Self-reported (random-effects)", 0.171, [0.029, 0.312], 0.018, "Yes"],
+                ["Self-reported (random-effects) AAS administered over longer periods", 0.094, [-0.091, 0.279], 0.321, "No"],
+                ["Self-reported (fixed-effects) AAS administered acutely", 0.291, [0.059, 0.524], 0.014, "Yes"],
+                ["Self-reported (fixed-effects) AAS administered in high dose (over 500 mg)", 0.191, [-0.007, 0.388], 0.059, "No"],
+                ["Observer-reported (fixed-effects)", 0.157, [-0.267, 0.581], 0.469, "No"]
+            ]
         },
+
         {
-            "fact_name": "A group of flamingos is called a 'flamboyance'",
-            "tags": [
-                "animals",
-                "birds"
-            ],
-            "reference": "https://www.dictionary.com/e/flamboyance-of-flamingos/"
+            "fact_name": "Testosterone has no relationship with mating success, measured by sexual partners within the last twelve months, lifetime sexual partners and lifetime number of one-night stands.",
+
+            "tags": ["testosterone", "mating success", "sexual partners", "one-night stands", "meta-analysis"],
+
+            "reference": "Kordsmeyer, T. L., Hunt, J., Puts, D. A., Ostner, J., & Penke, L. (2018). The relative importance of intra-and intersexual selection on human male sexually dimorphic traits. Evolution and Human Behavior, 39(4), 424-436.",
+
+            "doi": "10.1016/j.evolhumbehav.2018.03.008",
+
+            "table": ""
         },
+
         {
-            "fact_name": "There's a species of jellyfish that is biologically immortal",
-            "tags": [
-                "marine life",
-                "biology"
-            ],
-            "reference": "https://www.nationalgeographic.com/animals/article/immortal-jellyfish"
+            "fact_name": "Testosterone and cortisol do not affect facial attractiveness, facial dominance, facial health",
+
+            "tags": ["testosterone", "cortisol", "facial attractiveness", "facial dominance", "facial health", "meta-analysis", "attractiveness", "halo effect"],
+
+            "reference": "Kordsmeyer, T. L., Lohöfener, M., & Penke, L. (2019). Male facial attractiveness, dominance, and health and the interaction between cortisol and testosterone. Adaptive Human Behavior and Physiology, 5(1), 1-12.",
+
+            "doi": "10.1007/s40750-018-0098-z",
+
+            "table": [
+                ["Measure", "β", "SE", "t", "p", "Partial η²"],
+                ["Facial attractiveness", "", "", "", "", ""],
+                ["Baseline T", 0.19, 0.18, 1.10, 0.27, 0.01],
+                ["Baseline C", -0.05, 0.96, -0.05, 0.96, 0.00],
+                ["Baseline TxC", -0.13, 1.01, -0.13, 0.90, 0.00],
+                ["Facial dominance", "", "", "", "", ""],
+                ["Baseline T", 0.47, 0.17, 2.72, 0.007, 0.04],
+                ["Baseline C", 1.41, 0.95, 1.48, 0.14, 0.01],
+                ["Baseline TxC", -1.64, 1.00, -1.64, 0.10, 0.02],
+                ["Facial health", "", "", "", "", ""],
+                ["Baseline T", 0.10, 0.18, 0.56, 0.58, 0.00],
+                ["Baseline C", 0.56, 0.99, 0.56, 0.57, 0.00],
+                ["Baseline TxC", -0.57, 1.04, -0.55, 0.58, 0.00]
+            ]
         },
+
         {
-            "fact_name": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid",
-            "tags": [
-                "history",
-                "timeline"
-            ],
-            "reference": "https://www.history.com/news/10-things-you-may-not-know-about-cleopatra"
+            "fact_name": "High intensity exercise produces acute increases in testosterone, but returns to baseline one hour following activity",
+
+            "tags": ["testosterone", "exercise", "meta-analysis"],
+
+            "reference": "D’andrea, S., Spaggiari, G., Barbonetti, A., & Santi, D. (2020). Endogenous transient doping: physical exercise acutely increases testosterone levels—results from a meta-analysis. Journal of endocrinological investigation, 43(10), 1349-1371.",
+
+            "doi": "10.1007/s40618-020-01251-3",
+
+            "table": ""
         },
+
         {
-            "fact_name": "Oxford University is older than the Aztec Empire",
-            "tags": [
-                "education",
-                "history"
-            ],
-            "reference": "https://www.ox.ac.uk/about/organisation/history?wssl=1"
+            
+            "fact_name": "Church attendance is associated with higher educational attainment among Christians",
+
+            "tags": ["church", "education", "christianity", "religion", "god"],
+
+            "reference": "https://religionunplugged.com/news/2023/9/12/education-lets-have-a-talk-about-religious-attendance",
+
+            "table": ""
         },
+
         {
-            "fact_name": "There are more stars in the universe than grains of sand on all Earth's beaches",
-            "tags": [
-                "astronomy",
-                "space"
-            ],
-            "reference": "https://www.universetoday.com/106725/are-there-more-grains-of-sand-than-stars/"
+            "fact_name": "Eating locally does not meaningfully reduce your carbon footprint",
+
+            "tags": ["environment", "carbon footprint", "local food", "sustainability"],
+
+            "reference": "https://ourworldindata.org/food-choice-vs-eating-local",
+
+            "table": ""
         },
+
         {
-            "fact_name": "A day on Mercury lasts approximately 59 Earth days",
-            "tags": [
-                "astronomy",
-                "space"
-            ],
-            "reference": "https://solarsystem.nasa.gov/planets/mercury/in-depth/"
+            "fact_name": "Eating organic food requires more land, cause more eutrophication (harmful algal blooms), have more acidification potential, and emit the same amount of greenhouse gas emissions as conventional systems (but use a smaller, similar amount energy)",
+
+            "tags": ["organic food", "environment", "sustainability", "greenhouse gas emissions", "eutrophication", "land use", "energy use", "meta-analysis"],
+
+            "reference": "Clark, M., & Tilman, D. (2017). Comparative analysis of environmental impacts of agricultural production systems, agricultural input efficiency, and food choice. Environmental Research Letters, 12, 064016.",
+
+            "doi": "10.1088/1748-9326/aa6cd5",
+
+            "table": ""
         },
+
         {
-            "fact_name": "Bees can recognize human faces",
-            "tags": [
-                "insects",
-                "cognition"
-            ],
-            "reference": "https://www.scientificamerican.com/article/sweet-surprise-bees-can-recognize-faces/"
+            "fact_name": "Grass-fed beef produces more greenhouse gas emissions, uses more land, and causes more eutrophication than grain-fed beef",
+
+            "tags": ["beef", "environment", "sustainability", "greenhouse gas emissions", "eutrophication", "land use", "meta-analysis"],
+
+            "reference": "Clark, M., & Tilman, D. (2017). Comparative analysis of environmental impacts of agricultural production systems, agricultural input efficiency, and food choice. Environmental Research Letters, 12, 064016.",
+
+            "doi": "10.1088/1748-9326/aa6cd5",
+
+            "table": ""
         },
+
         {
-            "fact_name": "Sharks existed before trees",
-            "tags": [
-                "paleontology",
-                "evolution"
-            ],
-            "reference": "https://www.science.org/content/article/sharks-are-older-trees"
+            "fact_name": "The most impactful ways to reduce your carbon footprint are: having one fewer child, living car-free (or adjacent behavior), avoiding airplane travel, and eating a plant-based diet",
+
+            "tags": ["environment", "carbon footprint", "sustainability", "greenhouse gas emissions", "climate change"],
+
+            "reference": "Seth Wynes and Kimberly A Nicholas (2017) The climate mitigation gap: education and government recommendations miss the most effective individual actions. Environ. Res. Lett. 12 074024",
+
+            "doi": "10.1088/1748-9326/aa7541",
+
+            "table": ""
+
         },
+
         {
-            "fact_name": "Some turtles can breathe through their butts",
-            "tags": [
-                "animals",
-                "biology"
-            ],
-            "reference": "https://www.scientificamerican.com/article/fact-or-fiction-can-turtles-breathe-through-their-butts/"
+            "fact_name": "The simple grocery bag is the most environmentally friendly bag option for the environment, especially compared to paper bags",
+
+            "tags": ["environment", "sustainability", "plastic bags", "paper bags", "reusable bags"],
+
+            "reference": ["Danish Environmental Protection Agency. (2018). Life Cycle Assessment of grocery carrier bags. Environmental Project no. 1985, February 2018. Retrieved from https://web.archive.org/web/20240312013317/https://www2.mst.dk/udgiv/publications/2018/02/978-87-93614-73-4.pdf",
+                          "Boustead Consulting & Associates. (2018). Life Cycle Assessment for Three Types of Grocery Bags. Progressive Bag Alliance. Retrieved from /mnt/data/Life-Cycle-Assessment-for-Three-Types-of-Grocery-Bags.pdf"],
+
+            "doi": ["",""],
+
+            "table": ""
         },
+
         {
-            "fact_name": "A blue whale's heart is the size of a small car",
-            "tags": [
-                "marine life",
-                "biology"
-            ],
-            "reference": "https://www.nationalgeographic.com/animals/article/blue-whale"
+            "fact_name": "Doubling the population density increases CO2 efficiency typically by 42%",
+
+            "tags": ["population density", "carbon footprint", "sustainability", "greenhouse gas emissions", "climate change", "environment"],
+
+            "reference": "Ramana Gudipudi, Till Fluschnik, Anselmo García Cantú Ros, Carsten Walther, Jürgen P. Kropp, City density and CO2 efficiency, Energy Policy, Volume 91",
+
+            "doi": "10.1016/j.enpol.2016.01.015"
         },
+
         {
-            "fact_name": "Cows have best friends",
-            "tags": [
-                "animals",
-                "behavior"
-            ],
-            "reference": "https://www.scientificamerican.com/article/the-silent-suffering-of-the-lonely-cow/"
+            "fact_name": "Nuclear and Solar power are the safest and cleanest energy sources per watt of electricity generated",
+
+            "tags": ["nuclear power", "solar power", "energy", "sustainability", "environment", "greenhouse gas emissions", "climate change"],
+
+            "reference": "Hannah Ritchie (2020) - “What are the safest and cleanest sources of energy?” Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/safest-sources-of-energy' [Online Resource]",
+
+            "table": ""
+
         },
+
         {
-            "fact_name": "There are more fake flamingos in the world than real ones",
-            "tags": [
-                "birds",
-                "culture"
-            ],
-            "reference": "https://www.livescience.com/33762-pink-plastic-flamingos.html"
+            "fact_name": "University graduates are two to five times as likely to hold a degree in the field that their parents graduated from",
+
+            "tags": ["education", "university", "college", "degree", "parents", "family", "heritability", "shared environment", "genetics"],
+
+            "reference": "Altmejd, Adam, Inheritance of Fields of Study (2024). CESifo Working Paper No. 11113, Available at SSRN: https://ssrn.com/abstract=4827105 or http://dx.doi.org/10.2139/ssrn.4827105",
+
+            "doi": "10.2139/ssrn.4827105"
         },
+
         {
-            "fact_name": "Bananas glow blue under black light",
-            "tags": [
-                "food",
-                "science"
-            ],
-            "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2704139/"
-        },
-        {
-            "fact_name": "Humans share 60% of their DNA with bananas",
-            "tags": [
-                "genetics",
-                "biology"
-            ],
-            "reference": "https://genome.ucsc.edu/~hillerlab/Bananas/Bananas.html"
-        },
-        {
-            "fact_name": "There are more possible iterations of a game of chess than atoms in the known universe",
-            "tags": [
-                "games",
-                "math"
-            ],
-            "reference": "https://www.scientificamerican.com/article/chess-and-the-universe-of-possibility/"
-        },
-        {
-            "fact_name": "Sloths can hold their breath longer than dolphins",
-            "tags": [
-                "animals",
-                "biology"
-            ],
-            "reference": "https://www.livescience.com/sloths-hold-breath-longer-dolphins.html"
-        },
-        {
-            "fact_name": "Scotland's national animal is the unicorn",
-            "tags": [
-                "culture",
-                "symbolism"
-            ],
-            "reference": "https://www.visitscotland.com/about/uniquely-scottish/national-animal-unicorn/"
-        },
-        {
-            "fact_name": "There are more tigers in Texas than in the wild",
-            "tags": [
-                "animals",
-                "conservation"
-            ],
-            "reference": "https://www.nationalgeographic.com/animals/article/160307-texas-tigers-trafficking-lucy-cooke"
-        },
-        {
-            "fact_name": "The shortest war in history lasted 38 minutes",
-            "tags": [
-                "history",
-                "war"
-            ],
-            "reference": "https://www.britannica.com/story/what-was-the-shortest-war-in-history"
-        },
-        {
-            "fact_name": "Humans are the only animals that blush",
-            "tags": [
-                "anatomy",
-                "behavior"
-            ],
-            "reference": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3967526/"
-        },
-        {
-            "fact_name": "Venus is the hottest planet in the solar system",
-            "tags": [
-                "astronomy",
-                "space"
-            ],
-            "reference": "https://www.space.com/18526-venus-temperature.html"
-        },
-        {
-            "fact_name": "An octopus has nine brains",
-            "tags": [
-                "marine life",
-                "biology"
-            ],
-            "reference": "https://www.sciencefocus.com/nature/octopuses-have-nine-brains-heres-why/"
-        },
-        {
-            "fact_name": "AJ's initials are A and J",
-            "tags": [
-                "name",
-                "alan"
-            ],
-            "reference": "google.com"
-        },
-        {
-            "fact_name": "1 + 1 = 2",
-            "tags": [
-                "math",
-                "science"
-            ],
-            "reference": "x.com"
+            "fact_name": "Education has no effect on brain-strucutre",
+
+            "tags": ["education", "brain", "brain structure", "neuroscience", "neuroplasticity", "neurogenesis"],
+
+            "reference": "Nicholas Judd, Rogier Kievit, No effect of additional education on long-term brain structure: a preregistered natural experiment in over 30,000 individuals. bioRxiv 2024.05.17.594682",
+
+            "doi": "10.1101/2024.05.17.594682"
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ]
+
 }

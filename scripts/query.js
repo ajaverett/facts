@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             window.factData = data.facts;
-            const tags = new Set(data.facts.flatMap(fact => fact.tags));
+            const tags = Array.from(new Set(data.facts.flatMap(fact => fact.tags))).sort();
             const tagSelect = document.getElementById('tag-select');
             tags.forEach(tag => {
                 const option = document.createElement('option');

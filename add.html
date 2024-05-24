@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Fact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Fact</h1>
+        <form id="factForm">
+            <div class="form-group">
+                <label for="factName">Fact Name</label>
+                <input type="text" id="factName" required>
+            </div>
+            <div class="form-group">
+                <label for="tags">Tags (comma separated)</label>
+                <input type="text" id="tags" required>
+            </div>
+            <div class="form-group">
+                <label for="reference">Reference</label>
+                <input type="text" id="reference" required>
+            </div>
+            <div class="form-group">
+                <label for="table">Table Data (optional, comma separated rows and columns)</label>
+                <textarea id="table" rows="5" placeholder="Header1,Header2\nRow1Col1,Row1Col2\nRow2Col1,Row2Col2"></textarea>
+            </div>
+            <button type="submit">Add Fact</button>
+        </form>
+        <script src="scripts/append.js"></script>
+    </div>
+
+</body>
+</html>
