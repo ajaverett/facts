@@ -128,7 +128,7 @@
         {
             "fact_name": "Anabolic-androgenic steroid (AAS) use administration was associated with only a small increase in self-reported aggression and no increase in observer-reported aggression",
 
-            "tags": ["anabolic-androgenic steroid", "testosterone", "roid rage", "steroids", "AAS", "aggression", "meta-analysis"],
+            "tags": ["anabolic-androgenic steroid", "testosterone", "roid rage", "steroids", "aas", "aggression", "meta-analysis"],
 
             "reference": "Chegeni, R., Pallesen, S., McVeigh, J., & Sagoe, D. (2021). Anabolic-androgenic steroid administration increases self-reported aggression in healthy males: a systematic review and meta-analysis of experimental studies. Psychopharmacology, 238(7), 1911-1922.",
 
@@ -253,16 +253,25 @@
         },
 
         {
-            "fact_name": "The simple grocery bag is the most environmentally friendly bag option for the environment, especially compared to paper bags",
+            "fact_name": "The simple grocery bag is the most environmentally friendly bag option for the environment, especially compared to paper bags: Organic cotton bags have to be used at least 149 times to oset their climate impact; this is compared to 43 times for regular paper bags and once for low-density polyethylene (LDPE) plastic bags",
 
             "tags": ["environment", "sustainability", "plastic bags", "paper bags", "reusable bags"],
 
-            "reference": ["Danish Environmental Protection Agency. (2018). Life Cycle Assessment of grocery carrier bags. Environmental Project no. 1985, February 2018. Retrieved from https://web.archive.org/web/20240312013317/https://www2.mst.dk/udgiv/publications/2018/02/978-87-93614-73-4.pdf",
-                          "Boustead Consulting & Associates. (2018). Life Cycle Assessment for Three Types of Grocery Bags. Progressive Bag Alliance. Retrieved from /mnt/data/Life-Cycle-Assessment-for-Three-Types-of-Grocery-Bags.pdf"],
+            "reference": "Bisinella et. al., (2018). Life Cycle Assessment of grocery carrier bags",
 
-            "doi": ["",""],
+            "doi": "https://web.archive.org/web/20240312013317/https://www2.mst.dk/udgiv/publications/2018/02/978-87-93614-73-4.pdf"
 
-            "table": ""
+        },
+
+        {
+            "fact_name": "The simple grocery bag is the most environmentally friendly bag option for the environment, especially compared to paper bags: Any decision to ban traditional polyethylene plastic grocery bags in favor of bags made from alternative materials (compostable plastic or recycled paper) will be counterproductive and result in a significant increase in environmental impacts across a number of categories from global warming effects to the use of precious potable water resources.",
+
+            "tags": ["environment", "sustainability", "plastic bags", "paper bags", "reusable bags"],
+
+            "reference": "Boustead Consulting & Associates. (2018). Life Cycle Assessment for Three Types of Grocery Bags. Progressive Bag Alliance.",
+
+            "doi": "https://web.archive.org/web/20240528011052/https://media-frontend.tweakwise.com/data/minigrip/orgineel/Life-Cycle-Assessment-for-Three-Types-of-Grocery-Bags.pdf"
+
         },
 
         {
@@ -301,25 +310,155 @@
 
             "tags": ["education", "brain", "brain structure", "neuroscience", "neuroplasticity", "neurogenesis"],
 
-            "reference": "Nicholas Judd, Rogier Kievit, No effect of additional education on long-term brain structure: a preregistered natural experiment in over 30,000 individuals. bioRxiv 2024.05.17.594682",
+            "reference": "Judd and Kievit (2024). No effect of additional education on long-term brain structure: a preregistered natural experiment in over 30,000 individuals. bioRxiv 2024.05.17.594682",
 
             "doi": "10.1101/2024.05.17.594682"
+        },
+
+        {
+            "fact_name": "Low IQ scores from developing countries are likely accurate and not due to test bias",
+
+            "tags": ["iq", "intelligence", "test bias", "developing countries", "education", "poverty"],
+
+            "reference": "Rindermann (2024). Surprisingly low results from studies on cognitive ability in developing countries: are the results credible?. Discov Educ 3, 55 (2024). https://doi.org/10.1007/s44217-024-00135-5",
+
+            "doi": "10.1007/s44217-024-00135-5"
+        },
+
+        {
+            "fact_name": "The threshold hypothesis, that there are diminishing returns to intelligence, is not supported by the data: A longitudinal analysis of teenagers (SMPY) showed ability differences within the top 1% made a difference in obtaining a doctorate degree",
+
+            "tags": ["iq", "intelligence", "threshold hypothesis"],
+
+            "reference": "Wai, J. (2014). Experts are born, then made: Combining prospective and retrospective longitudinal data shows that cognitive ability matters. Intelligence, 45, 74-80",
+
+            "doi": "10.1016/j.intell.2013.08.009"
+
+        },
+
+        {
+            "fact_name": "The threshold hypothesis, that there are diminishing returns to intelligence, is not supported by the data: A longitudinal analysis of 12 year olds (SMPY, TIP) who had IQ of 160+ (n=259), by age 40, 37% had a doctorate degree, 15% held one or more patents, and a virtually all were business executives, authors, entrepreneurs, and other high-achieving professionals",
+
+            "tags": ["iq", "intelligence", "threshold hypothesis"],
+
+            "reference": "Makel, Matthew & Kell, Harrison & Lubinski, David & Putallaz, Martha & Benbow, Camilla. (2016). When Lightning Strikes Twice: Profoundly Gifted, Profoundly Accomplished. Psychological Science. 27. 10.1177/0956797616644735",
+
+            "doi": "10.1177/0956797616644735"
+
+        },
+
+        {
+            "fact_name": "The threshold hypothesis, that there are diminishing returns to intelligence, is not supported by the data: Test scores do not lose predictive power with increases in ability level or at a certain threshold.",
+
+            "tags": ["iq", "intelligence", "threshold hypothesis"],
+
+            "reference": "Coyle (2015). Relations among general intelligence (g), aptitude tests, and GPA: Linear effects dominate. Intelligence. 53. 16-22. 10.1016/j.intell.2015.08.005",
+
+            "doi": "10.1016/j.intell.2015.08.005"
+
+        },
+
+        {
+            "fact_name": "The threshold hypothesis, that there are diminishing returns to intelligence, is not supported by the data: There is no support for any downside to higher ability and no evidence for a threshold beyond which greater scores cease to be beneficial",
+
+            "tags": ["iq", "intelligence", "threshold hypothesis"],
+
+            "reference": "Brown, Matt & Wai, Jonathan & Chabris, Christopher. (2021). Can You Ever Be Too Smart for Your Own Good? Comparing Linear and Nonlinear Effects of Cognitive Ability on Life Outcomes. Perspectives on Psychological Science. 16. 174569162096412. 10.1177/1745691620964122.",
+
+            "doi": "10.1177/1745691620964122"
+
+        },
+
+        {
+
+            "fact_name": "Creative individuals are more likely to score higher on intelligence tests (r = .25 - .37)",
+
+            "tags": ["iq", "intelligence", "creativity", "divergent thinking", "meta-analysis"],
+
+            "reference": "Gerwig, Anne & Miroshnik, Kirill & Forthmann, Boris & Benedek, Mathias & Karwowski, Maciej & Holling, Heinz. (2021). The Relationship between Intelligence and Divergent Thinking – A Meta-Analytic Update. Journal of Intelligence.",
+
+            "doi": "10.3390/jintelligence9020023"
+
+        },
+
+        {
+
+            "fact_name": "High IQ individuals are not more likely to be mentally ill: Each standard deviation decrease in IQ results in a 12% increase in the risk of psychiatric contact",
+
+            "tags": ["iq", "intelligence", "mental health", "psychiatry", "high iq"],
+
+            "reference": "Walker, Nicholas & Mcconville, Pauline & Hunter, David & Deary, Ian & Whalley, Lawrence. (2002). Childhood mental ability and lifetime psychiatric contact: A 66-year follow-up study of the 1932 Scottish Mental Ability Survey. Intelligence. 30. 233-245.",
+
+            "doi": "10.1016/S0160-2896(01)00098-8"
+            
+        },
+
+        {
+
+            "fact_name": "High IQ individuals are not more likely to be mentally ill: There is a significant negative genetic correlations between intelligence alone and schizophrenia, neuroticism, depression, ADHD",
+
+            "tags": ["iq", "intelligence", "mental health", "psychiatry", "high iq"],
+
+            "reference": "Hill, W.D., Marioni, R.E., Maghzian, O. et al. A combined analysis of genetically correlated traits identifies 187 loci and a role for neurogenesis and myelination in intelligence. Mol Psychiatry 24, 169–181 (2019)",
+
+            "doi": "10.1038/s41380-017-0001-5"
+            
+        },
+
+        {
+
+            "fact_name": "High IQ individuals are not more likely to be mentally ill: Highly intelligent individuals (130+ IQ) in the UK Biobank were less likely to be nuerotic, socially isolated, and suffer from general anxiety and PTSD, and no more likely to have depression, social anxiety, a drug use disorder, eating disorders, OCD, bipolar disorder, and schizophrenia.",
+
+            "tags": ["iq", "intelligence", "mental health", "psychiatry", "high iq"],
+
+            "reference": "Williams, Camille & Peyre, Hugo & Labouret, Ghislaine & Fassaya, Judicaël & García, Adoración & Gauvrit, Nicolas & Ramus, Franck. (2022). High Intelligence is not a Risk Factor for Mental Health Disorders.",
+
+            "doi": "10.1101/2022.05.26.22275621",
+
+            "table": [
+                ["Phenotype","β", "SE", "OR", "t/z", "p"],
+                ["High > Average",                   "", "", "", "", ""],
+                ["Other Allergies",                  0.28, 0.06, 1.33, 4.50, "6.71E-06"],
+                ["Eczema",                           0.22, 0.06, 1.25, 3.96, "7.61E-05"],
+                ["Cannabis Use Ever",                0.22, 0.03, 1.25, 7.06, "1.64E-12"],
+                ["Same-Sex Behavior",                0.21, 0.05, 1.23, 3.89, "1.02E-04"],
+                ["Chronotype (E vs M)",              0.14, 0.02, 1.15, 5.99, "2.04E-09"],
+                ["General Allergy",                  0.12, 0.03, 1.13, 4.00, "6.29E-05"],
+                ["Myopia",                           0.66, 0.10, 1.93, 6.49, "8.79E-11"],
+                ["High < Average","", "", "", "", ""],
+                ["Trauma Catastrophic",              -0.10, 0.03, 0.90, -3.70, "2.2E-04"],
+                ["Social Isolation",                 -0.16, 0.04, 0.85, -4.28, "1.83E-05"],
+                ["Trauma Childhood Stressors",       -0.27, 0.03, 0.97, -8.92, "4.62E-19"],
+                ["Trauma Adulthood Stressors",       -0.37, 0.03, 0.69, -12.43, "1.83E-35"],
+                ["General Anxiety",                  -0.37, 0.05, 0.69, -7.18, "7E-13"],
+                ["Post-Traumatic Stress Disorder",   -0.40, 0.07, 0.67, -5.77, "7.7E-09"],
+                ["Trauma Childhood Abuse",           -0.48, 0.05, 0.62, -9.18, "4.14E-20"],
+                ["Neuroticism Score",                -0.12, 0.01, "", -10.17, "2.87E-24"]
+            ]
+            
+        },
+
+        {
+
+            "fact_name": "High IQ individuals are not more likely to be mentally ill: Highly gifted students with IQs of 130 and 144 did not have more social or emotional problems than children with IQs in the 110s and 120s",
+
+            "tags": ["iq", "intelligence", "mental health", "psychiatry", "high iq"],
+
+            "reference": "Guldemond, Henk & Bosker, Roel & Kuyper, Hans & Werf, Margaretha. (2007). Do Highly Gifted Students Really Have Problems?. Educational Research and Evaluation. 13. 555-568.",
+
+            "doi": "10.1080/13803610701786038"
+            
+        },
+
+        {
+            "fact_name": "Low intelligence is not wholly due to low socioeconomic status: Meta-analytically, intelligence is not a better predictor than parental SES or grades",
+
+            "tags": ["iq", "intelligence", "socioeconomic status", "ses", "poverty", "education"],
+
+            "reference": "Strenze, Tarmo. (2007). Intelligence and Socioeconomic Success: A Meta-Analytic Review of Longitudinal Research. Intelligence. 35. 401-426",
+
+            "doi": "10.1016/j.intell.2006.09.004"
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
